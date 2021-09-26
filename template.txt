@@ -1,0 +1,79 @@
+/*
+NOTEPAD:
+
+*/
+#include <iostream>
+#include <cstring>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+#include <stack>
+#include <queue>
+#include <set>
+#include <map>
+#include <unordered_map>
+#include <deque>
+#include <list>
+#include <iterator>
+#include <utility>
+#include <errno.h>
+using namespace std;
+typedef long long ll;
+typedef vector<int> vi;
+typedef stack<int> si;
+typedef queue<int> qi;
+typedef set<int> set_inc;
+typedef set<int, greater<int> > set_dec;
+typedef pair<int,int> pi;
+typedef map<int,int> mi;
+typedef deque <ll> di;
+typedef vi::iterator vi_it;
+typedef mi::iterator mi_it;
+typedef di::iterator di_it;
+template <typename T>
+void print_vector(vector<T> x)
+{
+    for (int i = 0; i < x.size(); ++i)
+    {
+        cout<<x[i]<<" ";
+    }
+    cout<<endl;
+}
+
+template <typename T>
+void print_array(T array[], int n)
+{
+    for (int i = 0; i < n; ++i)
+    {
+        cout<<array[i]<<" ";
+    }
+    cout<<endl;
+}
+
+template <typename T, typename S>
+void print_map(map<T,S> x)
+{
+    for(typename map<T,S>::iterator it=x.begin(); it!=x.end(); it++)
+    {
+        cout<<it->first<<" -> "<<it->second<<endl;
+    }
+}
+void solve()
+{
+
+}
+int main()
+{
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+    ll t=1;
+    cin>>t;
+    while(t--)
+    {
+     solve();
+    }
+    return 0;
+}
+//bering tafa
